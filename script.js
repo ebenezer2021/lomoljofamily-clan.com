@@ -77,36 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Show create account overlay
-    createAccountBtn.addEventListener('click', () => {
-        createAccountOverlay.style.display = 'flex';
-    });
-
-    // Close the create account overlay
-    closeOverlayBtn.addEventListener('click', () => {
-        createAccountOverlay.style.display = 'none';
-    });
-
-    // Handle create account form submission
-    document.getElementById('createAccountForm').addEventListener('submit', (e) => {
-        e.preventDefault();
-        const newUsername = document.getElementById('newUsername').value;
-        const newPassword = document.getElementById('newPassword').value;
-
-        // Check if the username already exists
-        const usernameExists = accounts.some(account => account.username === newUsername);
-
-        if (usernameExists) {
-            alert('Username already exists!');
-        } else {
-            // Add the new account to the system
-            accounts.push({ username: newUsername, password: newPassword });
-            alert('Account created successfully!');
-
-            // Close the overlay after creating the account
-            createAccountOverlay.style.display = 'none';
-        }
-    });
 
     // Optional: Close overlay when clicking outside the overlay content
     createAccountOverlay.addEventListener('click', (e) => {
