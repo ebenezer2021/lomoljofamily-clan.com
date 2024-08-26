@@ -78,13 +78,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
-    // Optional: Close overlay when clicking outside the overlay content
-    createAccountOverlay.addEventListener('click', (e) => {
-        if (e.target === createAccountOverlay) {
-            createAccountOverlay.style.display = 'none';
-        }
-    });
-
     // Show profile overlay
     document.getElementById('family-list').addEventListener('click', (e) => {
         if (e.target.tagName === 'LI') {
