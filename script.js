@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             age: 62,
             birthday: '1982-05-22',
             spouse: 'Romeo Duhaylungsod Lomoljo',
-            mother: 'Sarah Smith',
+            mother: '',
             father: 'Maximiano Acut',
             children: ['Hazel Lomoljo', 'Rogen Lomoljo', 'Lizel Lomoljo', 'Lynette Lomoljo']
         },
