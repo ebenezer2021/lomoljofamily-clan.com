@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomoljo Family Clan</title>
+    <link rel="stylesheet" href="lomoljo.css">
+</head>
+<body>
+    <header>
+        <h1>Lomoljo Family Clan</h1>
+        <hr>
+        <h6>OF</h6>
+        <h4>Romeo Duhaylungsod Lomoljo</h4>
+        <h7>and</h7>
+        <h4>Jeanette Acut Lomoljo</h4>
+    </header>
+
+    <!-- Homepage - Login Section -->
+    <section id="login-section">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <button id="createAccountBtn">Create Account</button>
+    </section>
+
+    <!-- Account Page - Hidden initially -->
+    <section id="account-page" class="hidden">
+        <header>
+            <h2>Family Member List</h2>
+            <button id="logoutBtn">Logout</button>
+        </header>
+        <ul id="family-list">
+            <!-- Family members will be dynamically added here -->
+        </ul>
+        <button id="registerMemberBtn">Register New Member</button>
+    </section>
+
+    <!-- Create Account Overlay -->
+<div id="createAccountOverlay" class="overlay">
+    <div class="overlay-content">
+        <h2>Create Account</h2>
+        <form id="createAccountForm">
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <button id="closeOverlayBtn">Close</button>
+    </div>
+</div>
+
+    <!-- Family Profile Overlay -->
+    <div id="profileOverlay" class="overlay">
+        <div class="overlay-content">
+            <h2>Family Member Profile</h2>
+            <div id="profileDetails">
+                <!-- Profile details will be dynamically inserted here -->
+            </div>
+            <button id="closeProfileBtn">Close</button>
+        </div>
+    </div>
+
+    <!-- Register New Member Overlay -->
+    <div id="registerMemberOverlay" class="overlay">
+        <div class="overlay-content">
+            <h2>Register New Family Member</h2>
+            <form id="registerMemberForm">
+                <label for="memberName">Name:</label>
+                <input type="text" id="memberName" name="memberName" required>
+
+                <label for="memberAge">Age:</label>
+                <input type="number" id="memberAge" name="memberAge" required>
+
+                <label for="memberBirthday">Birthday:</label>
+                <input type="date" id="memberBirthday" name="memberBirthday" required>
+
+                <label for="memberSpouse">Spouse:</label>
+                <input type="text" id="memberSpouse" name="memberSpouse" required>
+
+                <label for="memberMother">Mother:</label>
+                <input type="text" id="memberMother" name="memberMother">
+
+                <label for="memberFather">Father:</label>
+                <input type="text" id="memberFather" name="memberFather">
+
+                <label for="memberChildren">Children (comma-separated):</label>
+                <input type="text" id="memberChildren" name="memberChildren">
+
+                <button type="submit">Register</button>
+            </form>
+            <button id="closeRegisterOverlayBtn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
