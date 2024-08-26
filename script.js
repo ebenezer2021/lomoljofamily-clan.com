@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dummy account and family member data
     const accounts = [
         { username: 'ebenezer', password: 'saludes' },
-        { username: 'administrator123', password: 'adminrjl123' }
+        { username: 'administrator', password: 'adminrjl' }
     ];
     const familyMembers = [
         {
