@@ -33,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             spouse: 'Romeo Duhaylungsod Lomoljo',
             mother: '',
             father: 'Maximiano Acut',
-            children: ['Hazel Lomoljo', 'Rogen Lomoljo', 'Lizel Lomoljo', 'Lynette Lomoljo']
+            children: [ 'Hazel Lomoljo', 'Rogen Lomoljo', 'Lizel Lomoljo', 'Lynette Lomoljo'
+                      ]
         },
         {
                 name: 'Hazel Acut Lomoljo',
@@ -110,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             spouse: '',
             mother: 'Hazel Acut Lomoljo Galdiano',
             father: '',
-            children: '',
+            children: [''],
     ];
 
     // Load family members into the list
