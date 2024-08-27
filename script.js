@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mother: 'Hazel Acut Lomoljo Galdiano',
             father: '',
             children: ['']
+        }
     ];
 
     // Load family members into the list
