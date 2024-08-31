@@ -24,13 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             spouse: 'Jeanette Acut Lomoljo',
             mother: '',
             father: '',
-            children:
-            [
-                'Hazel Lomoljo',
-                'Rogen Lomoljo',
-                'Lizel Lomoljo',
-                'Lynette Lomoljo'
-            ]
+            children: [ 'Hazel Lomoljo', 'Rogen Lomoljo', 'Lizel Lomoljo', 'Lynette Lomoljo' ]
         },
         {
             name: 'Jeanette Acut Lomoljo',
