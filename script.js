@@ -17,23 +17,25 @@ document.addEventListener('DOMContentLoaded', () => {
         { username: 'administrator', password: 'adminrjl' }
     ];
     const familyMembers = [
-        {
+       {
             name: 'Romeo Duhaylungsod Lomoljo',
-            age: 68,
-            birthday: '1979-01-15',
+            age: '',
+            birthday: '',
             spouse: 'Jeanette Acut Lomoljo',
             mother: '',
             father: '',
-            children: ['Hazel Lomoljo', 
-                       'Rogen Lomoljo', 
-                       'Lizel Lomoljo', 
-                       'Lynette Lomoljo'
-                      ]
+            children:
+            [
+                'Hazel Lomoljo',
+                'Rogen Lomoljo',
+                'Lizel Lomoljo',
+                'Lynette Lomoljo'
+            ]
         },
         {
             name: 'Jeanette Acut Lomoljo',
-            age: 62,
-            birthday: '1982-05-22',
+            age: '',
+            birthday: '',
             spouse: 'Romeo Duhaylungsod Lomoljo',
             mother: '',
             father: 'Maximiano Acut',
@@ -52,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Rogen Acut Lomoljo',
             age: '',
             birthday: '',
-            spouse: 'Pinky Delos Reyes Lomoljo',
+            spouse: 'Pinky Jael Delos Reyes Lomoljo',
             mother: 'Jeanette Acut Lomoljo',
             father: 'Romeo Duhaylungsod Lomoljo',
             children: [ 'Jhon Kenjie Delos Reyes Lomoljo', 'Hannamichi jeanky Delos Reyes Lomoljo', 'Kydie Joren Delos Reyes Lomoljo', 'Zeth Delos Reyes Lomoljo']
@@ -92,7 +94,115 @@ document.addEventListener('DOMContentLoaded', () => {
             mother: 'Hazel Acut Lomoljo Galdiano',
             father: '',
             children: ['']
-        }
+        },
+        {
+            name: 'Rolly Lomoljo Alboria Jr.',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Lynette Acut Lomoljo Alboria',
+            father: 'Roll Alboria Sr.',
+            children: ['']
+        },
+        {
+            name: 'Rexon Lomoljo Alboria',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Lynette Acut Lomoljo Alboria',
+            father: 'Rolly Alboria Sr.',
+            children: ['']
+        },
+        {
+            name: 'Kirby Jan Lomoljo Sisa',
+            age: '',
+            birthday: 'June 02, ',
+            spouse: '',
+            mother: 'Lizel Acut Lomoljo',
+            father: 'Ronald Sisa',
+            children: ['']
+        },
+        {
+            name: 'Rubzel Dave Lomoljo Galdiano',
+            age: '',
+            birthday: 'August 01,',
+            spouse: '',
+            mother: 'Hazel Acut Lomoljo Galdiano',
+            father: 'Robie Lumayno Galdiano Sr.',
+            children: ['']
+        },
+        {
+            name: 'Ruzel Ken Lomoljo Galdiano',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Hazel Acut Lomoljo Galdiano',
+            father: 'Robie Lumayno Galdiano Sr.',
+            children: ['']
+        },
+        {
+            name: 'Jhon Kenjie Delos Reyes Lomoljo',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Pinky Jael Delos Reyes Lomoljo',
+            father: 'Rogen Acut Lomoljo',
+            children: ['']
+        },
+        {
+            name: 'Goldie Love Lomoljo Galdiano',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Hazel Acut Lomoljo Galdiano',
+            father: 'Robie Lumayno Galdiano Sr.',
+            children: ['']
+        },
+        {
+            name: 'Hannahmichi Jeanky Delos Reyes Lomoljo',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Pinky Jael Delos Reyes Lomoljo',
+            father: 'Rogen Acut Lomoljo',
+            children: ['']
+        },
+        {
+            name: 'Shower Faith Lomoljo Sisa',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Lizel Acut Lomoljo',
+            father: 'Ronald Sisa',
+            children: ['']
+        },
+        {
+            name: 'Lady Hope Lomoljo Sisa',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Lizel Acut Lomoljo',
+            father: 'Ronald Sisa',
+            children: ['']
+        },
+        {
+            name: 'Kydie Joeren Delos Reyes Lomoljo',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: 'Pinky Delos Reyes Lomoljo',
+            father: 'Rogen Acut Lomoljo',
+            children: ['']
+        },
+        {
+            name: '',
+            age: '',
+            birthday: '',
+            spouse: '',
+            mother: '',
+            father: '',
+            children: ['']
+        },
     ];
 
     // Load family members into the list
